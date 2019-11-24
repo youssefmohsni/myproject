@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/youssefmohsni/myproject/issues"
   },
-  "homepage": "https://github.com/youssefmohsni/myproject#readme"
+  "homepage": "https://github.com/youssefmohsni/myproject#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
