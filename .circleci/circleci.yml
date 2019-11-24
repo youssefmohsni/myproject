@@ -2,12 +2,8 @@ version: 2
 jobs:
     build:
         docker:
-            - image: circleci/node:7
+            - image: circleci/node:12.13.0
         steps:
             - checkout
-            - run:
-                name: install-dependencies
-                command: npm install
-            - run:
-                name: tests
-                command: npm test
+            - run: npm install
+            - run: npm test
